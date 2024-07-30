@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from "vue";
 import BoxNormal from "./BoxNormal.vue";
 import BoxSmall from "./BoxSmall.vue";
 import MemberShip from './MemberShip.vue';

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from "vue";
 import BoxUser from "./BoxUser.vue";
 import UserDelete from "./UserDelete.vue";
 

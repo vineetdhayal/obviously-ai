@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from "vue";
 import LeftSection from "./LeftSection.vue";
 import RightSection from "./RightSection.vue";
 
