@@ -8,10 +8,9 @@
 
 .specs {
     border: 1px solid;
-    width: 30%;
+    width: 30.2%;
     height: 45px;
     padding: 10px;
-    z-index: 100;
     background-color: white;
 }
 
@@ -25,7 +24,7 @@
 
 .specsSmall {
     border: 1px solid;
-    width: calc(15.75% - 14px);
+    width: calc(15.05% - 14px);
     height: 45px;
     padding: 10px;
     background-color: white;
