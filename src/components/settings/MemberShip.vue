@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import BoxPrice from "./BoxPrice.vue";
-
-defineProps<{ type: string; value: string }>();
 </script>
 <template>
   <div class="flex direction profileGap border">

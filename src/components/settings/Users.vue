@@ -3,7 +3,6 @@ import { ref } from "vue";
 import BoxUser from "./BoxUser.vue";
 import UserDelete from "./UserDelete.vue";
 
-defineProps<{ type: string; value: string }>();
 </script>
 <template>
   <div class="flex direction border profileGap">

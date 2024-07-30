@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
-defineProps<{ type: string; value: string; price: string }>();
+defineProps<{ type: string; value: string }>();
 </script>
 <template>
   <div class="specsUser flex spacing">

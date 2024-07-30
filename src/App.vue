@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
 import SettingsPage from "./components/settings/SettingsPage.vue";
 import DataBase from "./components/data-base/DataBase.vue";
 import { computed, ref } from "vue";
 
-const routes = { "/": SettingsPage, "/database": DataBase };
+const routes: any = { "/": SettingsPage, "/database": DataBase };
 
 const currentPath = ref(window.location.pathname);
 console.log(currentPath);
@@ -15,7 +14,7 @@ window.addEventListener("hashchange", () => {
 });
 
 const currentView = computed(() => {
-  return routes[currentPath.value || "/"];
+  return routes[currentPath.value || "/" as any];
 });
 </script>
 
