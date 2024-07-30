@@ -1,0 +1,21 @@
+.flex {
+    display: flex;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.bold {
+    font: bold;
+    font-weight: bold;
+}
+
+.profileGap {
+    gap: 20px;
+}
+
+.border {
+    border: 1px solid;
+    padding: 5px;
+}

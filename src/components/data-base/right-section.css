@@ -1,0 +1,83 @@
+.flex {
+    display: flex;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.firstFont {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.main {
+    margin-top: 180px;
+}
+
+.profileGap {
+    gap: 20px;
+}
+
+
+.boxGap {
+    gap: 5px;
+}
+
+.width {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.membership {
+    width: 33%;
+    margin-top: 5px;
+}
+
+.users {
+    width: 69%;
+    margin-top: 5px;
+}
+
+.rightImage {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+button {
+    height: 60px;
+    width: 400px;
+    background-color: blueviolet;
+}
+
+.left-line {
+    height: 1px;
+    border-bottom: 1px solid;
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.right-line {
+    height: 1px;
+    border-bottom: 1px solid;
+    width: 1200px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.myImage {
+    border: 1px solid;
+    height: 100px;
+    object-fit: cover;
+}
+
+.green {
+    background-color: green;
+}
+
+.my-button {
+    width: 100%;
+    height: 40px;
+}

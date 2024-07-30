@@ -1,0 +1,51 @@
+.flex {
+    display: flex;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.firstFont {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.profileGap {
+    gap: 20px;
+}
+
+.boxGap {
+    gap: 8px;
+}
+
+.width {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.membership {
+    width: 31.5%;
+    margin-top: 5px;
+}
+
+.users {
+    width: calc(68% - 20px);
+    margin-top: 5px;
+}
+
+.rightImage {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.my-button {
+    width: 100%;
+    height: 40px;
+    background-color: blueviolet;
+}

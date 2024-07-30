@@ -1,0 +1,58 @@
+.flex {
+    display: flex;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.specs {
+    border: 1px solid;
+    width: 75%;
+    height: 45px;
+    padding: 10px;
+}
+
+.specsUser {
+    border: 1px solid;
+    width: 40%;
+    height: 45px;
+    padding: 10px;
+}
+
+.specsSmall {
+    border: 1px solid;
+    width: 25%;
+    height: 45px;
+    padding: 10px;
+}
+
+.specsEqual {
+    border: 1px solid;
+    width: 33%;
+    height: 45px;
+    padding: 10px;
+}
+
+.bold {
+    font: bold;
+    font-weight: bold;
+}
+
+.specsPrice {
+    border: 1px solid;
+    height: 60px;
+    padding: 10px;
+}
+
+.font-small {
+    font-size: small;
+}
+
+.price {
+    align-self: center;
+}
+
+.spacing {
+    justify-content: space-between;
+}

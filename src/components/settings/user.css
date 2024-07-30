@@ -1,0 +1,40 @@
+.bold {
+    font: bold;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.border {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.flexBox {
+    display: flex;
+    gap: 10px;
+}
+
+.plus {
+    border: 1px solid;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexUser {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.profileGap {
+    gap: 20px;
+}

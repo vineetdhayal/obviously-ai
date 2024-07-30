@@ -1,0 +1,57 @@
+.flex {
+    display: flex;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.specs {
+    border: 1px solid;
+    width: 30%;
+    height: 45px;
+    padding: 10px;
+    z-index: 100;
+    background-color: white;
+}
+
+.specsUser {
+    border: 1px solid;
+    width: 40%;
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+}
+
+.specsSmall {
+    border: 1px solid;
+    width: calc(15.75% - 14px);
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+}
+
+.bold {
+    font: bold;
+    font-weight: bold;
+}
+
+.specsPrice {
+    border: 1px solid;
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.font-small {
+    font-size: small;
+}
+
+.price {
+    align-self: center;
+}
+
+.spacing {
+    justify-content: space-between;
+}
